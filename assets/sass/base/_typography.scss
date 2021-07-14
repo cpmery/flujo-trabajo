@@ -1,0 +1,30 @@
+h1{
+    color:white;
+    text-align: center;
+    font-family: $playfair;
+    font-size: $xx-large;
+    font-weight: $w-bold;
+}
+p{
+    color: black;
+    font-family: $roboto;
+    font-size: $small;
+    font-weight: $w-light;
+    line-height: 2.5;
+}
+h4{
+    color: black;
+    font-family: $playfair;
+    font-size: $medium;
+}
+h5{
+    color:$fuzzy-wuzzy;
+    font-family: $roboto;
+    font-size: $small;
+&:hover{
+    color:$nickel;
+}
+&:active{
+    color:$platinum;
+}    
+}

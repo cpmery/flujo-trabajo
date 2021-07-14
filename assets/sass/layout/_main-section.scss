@@ -1,0 +1,43 @@
+.main-sect_div{
+    padding-left: 4rem;
+    padding-right:4rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.main-sect_fecha{
+    padding-bottom: 2em;
+}
+.main-sect_divboton{
+    display: flex;
+    flex-direction:row;
+    padding-top:3em;
+}
+
+%main-sect_button{
+    background-color: $nickel;
+    color: white;
+    padding-top:0.5em;
+    padding-bottom: .5em;
+    padding-left:.5em;
+    padding-right: .5em;
+    border-radius: 100px;
+    margin:.2em;
+    box-shadow: 0px;
+    text-align: center;
+    font-family: $roboto;
+&:hover{
+    background-color: $light-gray;
+}
+&:focus{
+    background-color: $nickel;
+    border-color: $light-gray;
+}
+}
+.main-sect_bgrande{
+    @extend %main-sect_button;
+    width: $grande;
+}
+.main-sect_bchico{
+    @extend %main-sect_button;
+    width: $chico;
+}

@@ -1,0 +1,52 @@
+.sect-pag_div-ppal{
+    background-color:$light-gray;
+    padding-top:3rem;
+    padding-bottom: 3rem;
+    height:7rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.sect-pag_div-btn{
+    display:flex;
+    flex-direction: row;
+
+}
+.sect-pag_btn-izq{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-color: white;
+    border:$light-gray 2px solid;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+&:hover{
+    color:white;
+    background-color: $nickel;
+}
+}
+.sect-pag_btn{
+    background-color: white;
+    border:$light-gray 2px solid;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+&:hover{
+    color:white;
+    background-color: $nickel;
+}
+}
+
+.sect-pag_btn-der{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: white;
+    border:$light-gray 2px solid;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+&:hover{
+    color:white;
+    background-color: $nickel;
+}
+}
